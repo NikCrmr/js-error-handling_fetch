@@ -21,7 +21,7 @@ document.querySelectorAll("button[data-url]").forEach((button) =>
     } catch {
       console.log("ERROR");
       userElement.innerText = "info not found";
-      errorElement.innerText = "ERROR - Can't find Data";
+      errorElement.innerHTML = "Sorry &#128577; - Can't find Data";
     }
   })
 );
