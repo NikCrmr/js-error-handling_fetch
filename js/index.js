@@ -20,7 +20,7 @@ document.querySelectorAll("button[data-url]").forEach((button) =>
       errorElement.innerHTML = "    ";
     } catch {
       console.log("ERROR");
-      errorElement.innerHTML = "<h2>ERROR</h2>";
+      errorElement.innerHTML = "ERROR";
     }
   })
 );
